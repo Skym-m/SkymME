@@ -4,10 +4,9 @@ body, html {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    height: 8000px;
 }
 
-/* Accueil -/- Skym */
+/* Accueil -/- skym */
 
 .skym {
     padding-top: 150px;
@@ -67,7 +66,7 @@ body, html {
     filter: opacity(0);
 }
 
-/* A Propos -/- About */
+/* A propos -/- about */
 
 .about {
     padding-top: 150px;
@@ -126,7 +125,7 @@ body, html {
     transition: 500ms;
 }
 
-/* EnviCie */
+/* EnviCie -/- envicie */
 
 .envicie {
     padding-top: 150px;
@@ -175,7 +174,7 @@ body, html {
     transition: 500ms;
 }
 
-/* Pack de texture */
+/* Pack de texture -/- pack */
 
 .pack {
     padding-top: 150px;
@@ -220,7 +219,7 @@ body, html {
     transition: 500ms;
 }
 
-/* Développement */
+/* Développement -/- dev */
 
 .dev {
     padding-top: 150px;
@@ -277,6 +276,97 @@ body, html {
     padding-right: 5%;
     bottom: 10%;
     background-color: transparent;
+}
+
+/* Responsive */
+
+@media (max-width: 640px) {
+
+    /* Accueil -/- skym */
+
+    .skym {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .skym h1 {
+        font-size: 100px;
+    }
+
+    .skym iframe {
+        width: 75%;
+        height: 15%;
+    }
+
+    /* A propos -/- about */
+
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about h1 {
+        font-size: 70px;
+    }
+
+    .about h2 {
+        font-size: 35px;
+    }
+
+    /* EnviCie -/- envicie */
+
+    .envicie {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .envicie h1 {
+        font-size: 70px;
+    }
+
+    .envicie h2 {
+        font-size: 35px;
+    }
+
+    /* Pack de texture -/- pack */
+
+    .pack {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pack h1 {
+        font-size: 70px;
+    }
+
+    .pack h2 {
+        font-size: 35px;
+    }
+
+    /* Développement -/- dev */
+
+    .dev {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dev h1 {
+        font-size: 50px;
+    }
+
+    .dev h2 {
+        font-size: 30px;
+    }
+
+    .sidebar-nav {
+        padding-bottom: 30px;
+        position: unset;
+        align-items: center;
+    }
 }
 
 /* Animations */
