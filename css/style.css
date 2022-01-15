@@ -264,6 +264,34 @@ body, html {
     transition: 500ms;
 }
 
+/* Footer -/- footer */
+
+.footerChild {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    font-family: 'Tinos' sans-serif;
+    background-color: rgb(228, 228, 228);
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    font-family: 'Tinos' sans-serif;
+    font-weight: bold;
+}
+
+.footerChild a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.footerChild a:hover {
+    text-align: center;
+    color: rgb(107, 107, 107);
+    transition: 0.5s;
+}
+
 
 /* SideBar */
 
@@ -274,7 +302,7 @@ body, html {
     position: fixed;
     right: 0;
     padding-right: 5%;
-    bottom: 10%;
+    bottom: 15%;
     background-color: transparent;
 }
 
@@ -349,7 +377,7 @@ body, html {
 
     .dev {
         padding-top: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 200px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -363,6 +391,7 @@ body, html {
     }
 
     .sidebar-nav {
+        padding-top: 30px;
         padding-bottom: 30px;
         position: unset;
         align-items: center;
