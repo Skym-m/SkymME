@@ -125,44 +125,44 @@ body, html {
     transition: 500ms;
 }
 
-/* EnviCie -/- envicie */
+/* Skym-Mc -/- skym-mc */
 
-.envicie {
+.skym-mc {
     padding-top: 150px;
     padding-left: 300px;
     padding-bottom: 200px;
 }
 
-.envicie h1 {
+.skym-mc h1 {
     color: #000000	;
     font-family: 'Tinos', bold;
     font-weight: bold;
     font-size: 160px;
 }
 
-.envicie h2 {
+.skym-mc h2 {
     color: #000000;
     font-family: 'Tinos', bold;
     font-weight: bold;
 }
 
-.envicie h4 {
+.skym-mc h4 {
     color: #000000;
     font-family: 'Tinos';
     transition: 500ms;
 }
 
-.envicie-serveurs {
+.skym-mc-serveurs {
     font-weight: bold;
 }
 
-.envicie a {
+.skym-mc a {
     text-decoration: none;
     transition: 500ms;
     color: orange;
 }
 
-.envicie a:hover {
+.skym-mc a:hover {
     border: none;
     border-radius: 23px;
     padding: 0px 30px;
@@ -174,40 +174,40 @@ body, html {
     transition: 500ms;
 }
 
-/* Pack de texture -/- pack */
+/* Mes services -/- services */
 
-.pack {
+.services {
     padding-top: 150px;
     padding-left: 300px;
     padding-bottom: 200px;
 }
 
-.pack h1 {
+.services h1 {
     color: #000000	;
     font-family: 'Tinos', bold;
     font-weight: bold;
     font-size: 160px;
 }
 
-.pack h2 {
+.services h2 {
     color: #000000;
     font-family: 'Tinos', bold;
     font-weight: bold;
 }
 
-.pack h4 {
+.services h4 {
     color: #000000;
     font-family: 'Tinos';
     transition: 500ms;
 }
 
-.pack a {
+.services a {
     text-decoration: none;
     transition: 500ms;
     color: orange;
 }
 
-.pack a:hover {
+.services a:hover {
     border: none;
     border-radius: 23px;
     padding: 0px 30px;
@@ -268,10 +268,10 @@ body, html {
 
 .footerChild {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     padding-top: 10px;
     font-family: 'Tinos' sans-serif;
-    background-color: rgb(228, 228, 228);
+    background: linear-gradient(90deg, rgba(233,150,122,1) 25%, rgba(255,233,122,1) 100%);
     padding-bottom: 10px;
 }
 
@@ -282,14 +282,19 @@ body, html {
 
 .footerChild a {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     transition: 0.5s;
 }
 
 .footerChild a:hover {
-    text-align: center;
-    color: rgb(107, 107, 107);
-    transition: 0.5s;
+    border: none;
+    border-radius: 23px;
+    padding: 0px 30px;
+    height: 36px;
+    color: white;
+    box-shadow: 2px 2px black;
+    background-color: #f2ce58c2;
+    transition: 500ms;
 }
 
 
@@ -341,35 +346,35 @@ body, html {
         font-size: 35px;
     }
 
-    /* EnviCie -/- envicie */
+    /* Skym-Mc -/- skym-mc */
 
-    .envicie {
+    .skym-mc {
         padding-top: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .envicie h1 {
+    .skym-mc h1 {
         font-size: 70px;
     }
 
-    .envicie h2 {
+    .skym-mc h2 {
         font-size: 35px;
     }
 
-    /* Pack de texture -/- pack */
+    /* Mes services -/- services */
 
-    .pack {
+    .services {
         padding-top: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .pack h1 {
+    .services h1 {
         font-size: 70px;
     }
 
-    .pack h2 {
+    .services h2 {
         font-size: 35px;
     }
 
